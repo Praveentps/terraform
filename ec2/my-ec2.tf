@@ -1,4 +1,4 @@
-module "my-ec2-instance" {
+resource "aws_instance" "my-ec2-instance" {
 
   name                   = "my-cluster"
   instance_count         = 1
