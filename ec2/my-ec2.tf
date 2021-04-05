@@ -1,7 +1,6 @@
 resource "aws_instance" "my-ec2-instance" {
 
   name                   = "my-cluster"
-  instance_count         = 1
 
   ami                    = "ami-0474be6b24f418f29"
   instance_type          = "t2.micro"
